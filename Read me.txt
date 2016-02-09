@@ -1,0 +1,17 @@
+ATM multiple client project done on Eclipse IDE
+All sources in folder src
+
+com is included for MysQL linking
+mysql-connector-java-5.1.26-bin.jar should be put in the build path
+
+server.java is the main am server
+client.java is the client
+**user:root  
+**password:1234
+
+run both server.java and client.java in separate consoles
+*port:2222
+
+createdb.sql contains sample data for the table
+**table name: db
+**attributes: card(primary key), pin, savings_bal, current_bal
